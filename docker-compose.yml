@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mqtt_weather_sender_1:
+    build: .
+    container_name: mqtt_weather_sender_1
+    restart: always
+  mqtt_weather_sender_2:
+    build: .
+    container_name: mqtt_weather_sender_2
+    restart: always
+  mqtt_weather_sender_3:
+    build: .
+    container_name: mqtt_weather_sender_3
+    restart: always
